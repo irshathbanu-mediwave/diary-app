@@ -9,16 +9,48 @@
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: large;
+  background-color: aliceblue;
 }
 .container {
   margin: auto;
-  width: 500px;
+}
+.form-container {
+  margin: auto;
+  /* width: 500px; */
   border: 5px solid whitesmoke;
   padding: 10px;
   width: 500px;
   height: 500px;
   text-align: center;
-  color: cornsilk;
+  /* color: cornsilk; */
   font-size: 20px;
   background-image: linear-gradient(to right, #00bfff 20%, #9400d3 80%);
+}
+input,
+label {
+  background-color: wheat;
+}
+#app {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+.card {
+  /* display: grid; */
+  margin: auto;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  /* display: contents; */
+  background-color: transparent;
+  color: black;
+  /*  */
+}
+#deletebtn {
+  margin: auto;
 }
